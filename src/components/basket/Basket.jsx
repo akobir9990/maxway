@@ -23,7 +23,7 @@ export default function Basket() {
       initial={{ opacity: 0, y: 200, top: 200 }}
       animate={{ opacity: 1, y: 0, top: 0 }}
       transition={{ delay: 0.3 }}
-      className="min-w-[400px] max-w-[700px] min-h-[400px] max-h-[700px]"
+      className="min-w-[360px] max-w-[700px] min-h-[400px] max-h-[700px]"
     >
       {filteredProducts.map((category) => {
         let foods = category.foods.filter((food) => food.amount > 0);
@@ -32,8 +32,8 @@ export default function Basket() {
           foods: foods,
         };
       }).length === 0 ? (
-        <div className="text-[30px] flex flex-col items-center">
-          <h3>You have no products in your basket yet!!!</h3>
+        <div className="exsm:text-[20px] text-[30px] flex flex-col items-center">
+          <h3>Siz hali hech narsani tanlamadingiz!!!</h3>
         </div>
       ) : (
         <>
@@ -58,7 +58,7 @@ export default function Basket() {
               });
             })}
           <h1 className="text-[25px] italic font-semibold my-3">
-            Total price:
+            Umumiy narx:
             {` ${priceFormatter(totalPrice)} so'm`}
           </h1>
         </>

@@ -7,7 +7,7 @@ export default function FoodItem({ cleanCategory, item }) {
   const inc = useStore((state) => state.inc);
   const dec = useStore((state) => state.dec);
   return (
-    <div className="flex rounded-2xl shadow-lg p-4 items-center gap-3 my-1">
+    <div className="flex rounded-2xl shadow-md p-4 items-center gap-3 my-1">
       <div className="flex items-center justify-center rounded-xl w-[80px] h-[80px]">
         <img src={item.foodImage} alt="" className="w-[100%] h-[100%]" />
       </div>
@@ -22,7 +22,7 @@ export default function FoodItem({ cleanCategory, item }) {
           <p className="text-[16px] font-semibold">
             {`${priceFormatter(item.foodPrice)} so'm`}
           </p>
-          <div className="w-[95px] h-[32px] flex justify-between items-center border border-[#B0C7FF] rounded-3xl">
+          <div className="w-[95px] h-[32px] flex justify-between items-center border border-primary rounded-3xl">
             <img
               src={minus}
               alt=""

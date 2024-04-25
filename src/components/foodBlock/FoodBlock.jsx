@@ -21,7 +21,7 @@ export default function FoodBlock() {
             <h1 className="title text-[28px] font-[700] mb-5">
               {foodsList.title}
             </h1>
-            <div className="flex w-[100%] py-5 overflow-x-auto gap-[18px]">
+            <div className="flex w-[100%] py-5 overflow-x-scroll gap-[18px] no-scrollbar">
               {foodsList.foods.map((item) => {
                 return (
                   <div
