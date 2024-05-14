@@ -56,4 +56,4 @@ yarn dev
 
 
 ## Deployment
-- deployed netlify https://akobir9990-object-formatter.netlify.app/
+- deployed vercel [https://akobir9990-object-formatter.netlify.app/](https://maxway-akobir.vercel.app/)
