@@ -34,13 +34,13 @@ yarn dev
     - DigitalOcea
 3. Deploy the Project:
  - Each hosting platform has its own deployment process. Follow the documentation of your chosen platform to deploy your project:
-    - GitHub Pages
-    - Netlify
-    - Vercel
-    - Heroku
-    - AWS
-    - Firebase Hosting
-    - DigitalOcean
+    - [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages)
+    - [Netlify](https://www.netlify.com/)
+    - [Vercel](https://vercel.com/)
+    - [Heroku](https://www.heroku.com/)
+    - [AWS](https://aws.amazon.com/)
+    - [Firebase Hosting](https://firebase.google.com/)
+    - [DigitalOcean](https://try.digitalocean.com/cloud)
 4. Configure Environment Variables (if necessary):
  - If your project requires environment variables, make sure to configure them in your hosting platform's dashboard or settings.
 5. Verify Deployment:
