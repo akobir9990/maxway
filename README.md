@@ -2,8 +2,8 @@
 
 
 ## Description
-- O'zbekiston fastfood bozoridagi peshqadam kompaniyalardan biri bo'lgan MaxWayning web saytining cloni bo'ladi bu.
-
+- This is a clone website of MaxWay, one of the famous companies in the fast food market of Uzbekistan.
+  
 
 
 ## Installation:
