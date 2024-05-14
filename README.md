@@ -1,5 +1,11 @@
 # E-COMMERCE
 
+
+## Description
+- O'zbekiston fastfood bozoridagi peshqadam kompaniyalardan biri bo'lgan MaxWayning web saytining cloni bo'ladi bu.
+
+
+
 ## Installation:
 Clone the repository:
 ```
