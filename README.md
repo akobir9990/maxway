@@ -1,21 +1,34 @@
 # E-COMMERCE
 
 ## Table of Contents:
- - created using HTML, CSS, JavaScript
- - the string in the template shown in the placeholder is thrown into the textarea on the left side
- - the convert button below the input textarea is clicked for convert that string
- - then it returns in the form of objects in the array of this template in the textarea on the right side of the screen
- - the result will be one array, as many objects will be created as many test questions and answers are given in the template
- - outbut textarea is made readOnly so it is not possible to write to outbut teaxarea
- - We can copy the result in the textarea by pressing the copy button below the output textarea
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Deployment](#deployment)
 
 
 ## Installation:
-clone
+Clone the repository:
 ```
 git clone https://github.com/akobir9990/maxway.git
-
 ```
+Navigate to the project directory:
+```
+cd maxway
+```
+Install dependencies:
+```
+yarn
+```
+Run the project:
+```
+yarn dev
+```
+
+
+
+
 
 
 ## Usage:
