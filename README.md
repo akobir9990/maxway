@@ -1,13 +1,5 @@
 # E-COMMERCE
 
-## Table of Contents:
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Deployment](#deployment)
-
-
 ## Installation:
 Clone the repository:
 ```
@@ -25,14 +17,37 @@ Run the project:
 ```
 yarn dev
 ```
+## Build:
+1. Build the project
+ - Before deploying, you may need to build your project for production. Use the appropriate command to build your project:
+    ```
+    yarn build
+    ```
+2. Choose a Hosting Platform:
+ - Choose a hosting platform where you want to deploy your project. Common choices include:
+    - GitHub Pages
+    - Netlify
+    - Vercel
+    - Heroku
+    - AWS
+    - Firebase Hosting
+    - DigitalOcea
+3. Deploy the Project:
+ - Each hosting platform has its own deployment process. Follow the documentation of your chosen platform to deploy your project:
+    - GitHub Pages
+    - Netlify
+    - Vercel
+    - Heroku
+    - AWS
+    - Firebase Hosting
+    - DigitalOcean
+4. Configure Environment Variables (if necessary):
+ - If your project requires environment variables, make sure to configure them in your hosting platform's dashboard or settings.
+5. Verify Deployment:
+ - Once the deployment process is complete, visit the URL of your deployed project to verify that it's working correctly.
 
 
 
-
-
-
-## Usage:
-- I made the test for the formatter as a client so that I don't have to spend a lot of time to make fakeData by inserting it into the object
 
 ## Deployment
 - deployed netlify https://akobir9990-object-formatter.netlify.app/
